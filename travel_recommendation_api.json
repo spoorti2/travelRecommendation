@@ -1,0 +1,22 @@
+{
+    "places": [
+        {
+            "name": "Goa Beach",
+            "keywords": ["beach", "beaches", "goa"],
+            "description": "Goa is known for its stunning beaches, vibrant nightlife and Portuguese heritage.",
+            "imageUrl": "images/goa.jpg"
+        },
+        {
+            "name": "Hampi Temple",
+            "keywords": ["temple", "hampi", "temples"],
+            "description": "Hampi is an ancient village known for its ruins, temples and history.",
+            "imageUrl": "images/hampi.jpg"
+        },
+        {
+            "name": "New York City",
+            "keywords": ["USA", "new york", "country", "america"],
+            "description": "New York is known for its skyline, Central Park, Times Square and culture.",
+            "imageUrl": "images/newyork.jpg"
+        }
+    ]
+}

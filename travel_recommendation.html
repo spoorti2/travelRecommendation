@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Recommendation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('images/background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: rgba(0,0,0,0.7);
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        #searchSection {
+            margin: 20px;
+            text-align: center;
+        }
+        #recommendations {
+            margin: 20px;
+            background-color: rgba(0,0,0,0.5);
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div>
+            <input type="text" id="searchInput" placeholder="Search destination...">
+            <button onclick="searchRecommendations()">Search</button>
+            <button onclick="clearRecommendations()">Clear</button>
+        </div>
+    </nav>
+    <section id="searchSection">
+        <h1>Explore Your Next Destination</h1>
+        <p>Find the best recommendations for beaches, temples, and countries.</p>
+    </section>
+    <section id="recommendations"></section>
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
